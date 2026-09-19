@@ -3,7 +3,7 @@
 
 const int WINDOW_WIDTH = 1280;
 const int WINDOW_HEIGHT = 720;
-const float MOUSE_SENSITIVITY = 0.3f;
+const float MOUSE_SENSITIVITY = 0.2f;
 const int WORLD_WIDTH = 8;
 const int WORLD_HEIGHT = 2;
 const int WORLD_LENGTH = 4;
@@ -25,5 +25,5 @@ enum class GameMsg : uint32_t {
     Game_AddPlayer,
     Game_RemovePlayer,
     Game_UpdatePlayer,
-    
+
 };

@@ -2,7 +2,7 @@
 
 #include "OBJLoader.hpp"
 #include "Vertex.hpp"
-#include <GLAD/glad.h>
+#include "glad.h"
 
 class Model {
 public:

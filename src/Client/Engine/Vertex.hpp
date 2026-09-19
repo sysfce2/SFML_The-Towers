@@ -1,6 +1,6 @@
 #pragma once
 
-#include <GLAD/glad.h>
+#include "glad.h"
 #include <glm/glm.hpp>
 #include "ColorRGBA8.hpp"
 

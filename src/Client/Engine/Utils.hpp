@@ -8,7 +8,7 @@
 #include <cstdarg>
 #include <chrono>
 #include "AABBox.hpp"
-#include <GLAD/glad.h>
+#include "glad.h"
 #include <glm/glm.hpp>
 
 enum CollisionType {
@@ -25,8 +25,6 @@ namespace Utils {
 	CollisionType collideBoxes(AABB& a, const AABB& b);
 	GLuint loadTexture(const std::string& _path);
 	std::vector<std::string> tokenizeString(const std::string& _str);
-	
+
 
 }
-
-

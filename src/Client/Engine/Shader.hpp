@@ -1,6 +1,6 @@
 #pragma once
 
-#include <GLAD/glad.h>
+#include "glad.h"
 #include <string>
 #include <fstream>
 #include <unordered_map>
@@ -31,5 +31,3 @@ private:
 	GLuint m_fragmentID = 0;
 
 };
-
-

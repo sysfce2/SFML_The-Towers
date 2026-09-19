@@ -46,7 +46,6 @@ void Program::gameloop(){
 }
 
 void Program::cleanUp(){
-	m_networkManager.Disconnect();
 	GUIAssets::destroy();
 	GUIRenderer::destroy();
 	m_game.destroy();

@@ -1,6 +1,6 @@
 #pragma once
 
-#include <GLAD/glad.h>
+#include "glad.h"
 #include <vector>
 #include "Vertex.hpp"
 
@@ -20,5 +20,3 @@ private:
 
 
 };
-
-

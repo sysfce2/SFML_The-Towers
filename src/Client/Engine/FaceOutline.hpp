@@ -1,7 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include <GLAD/glad.h>
+#include "glad.h"
 
 class FaceOutline {
 public:
